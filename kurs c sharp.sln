@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.02 typy wbudowane", "FirstProject\02.02 typy wbudowane.csproj", "{82719DD8-DC15-4D20-B8AD-F807FFC6B66F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.02 typy wbudowane", "02.02 typy wbudowane\02.02 typy wbudowane.csproj", "{82719DD8-DC15-4D20-B8AD-F807FFC6B66F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.03 String & String Builder", "project02.03\02.03 String & String Builder.csproj", "{1E2144FB-AB11-48B4-BB8F-C5B8F76C3803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.03 String & String Builder", "02.03 String & String Builder\02.03 String & String Builder.csproj", "{1E2144FB-AB11-48B4-BB8F-C5B8F76C3803}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.04 Powszechne operatory", "project02.04\02.04 Powszechne operatory.csproj", "{2E9567C5-A474-4C63-A0A3-7EADF578CAC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.04 Powszechne operatory", "02.04 Powszechne operatory\02.04 Powszechne operatory.csproj", "{2E9567C5-A474-4C63-A0A3-7EADF578CAC7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.05 Komentarze i regiony", "project02.05\02.05 Komentarze i regiony.csproj", "{F15BA006-9129-4FC6-A559-1476BA92F6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.05 Komentarze i regiony", "02.05 Komentarze i regiony\02.05 Komentarze i regiony.csproj", "{F15BA006-9129-4FC6-A559-1476BA92F6AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.06 if-else statment", "project02.06\02.06 if-else statment.csproj", "{C4A698B8-A291-4530-8E2C-C2018DE401CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.06 if-else statement", "02.06 if-else statement\02.06 if-else statement.csproj", "{C4A698B8-A291-4530-8E2C-C2018DE401CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.07 Switch statement", "02.07 Switch statement\02.07 Switch statement.csproj", "{D21C2A5F-150F-4889-B76C-A7E3EF7354FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C4A698B8-A291-4530-8E2C-C2018DE401CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A698B8-A291-4530-8E2C-C2018DE401CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A698B8-A291-4530-8E2C-C2018DE401CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21C2A5F-150F-4889-B76C-A7E3EF7354FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21C2A5F-150F-4889-B76C-A7E3EF7354FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21C2A5F-150F-4889-B76C-A7E3EF7354FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21C2A5F-150F-4889-B76C-A7E3EF7354FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
