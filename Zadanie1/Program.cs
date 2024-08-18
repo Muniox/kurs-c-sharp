@@ -10,11 +10,17 @@
          * **/
         static void Main(string[] args)
         {
+            Console.WriteLine("Insert the date of birth (dd.MM.yyyy)");
             string input =  Console.ReadLine() ?? "0";
 
             DateTime dateOfBirth = DateTime.Parse(input);
-            int daysFromDateOfBirth = (DateTime.Now.Year - dateOfBirth.Year) * 365 + DateTime.Now.DayOfYear - dateOfBirth.DayOfYear;
-            Console.WriteLine(daysFromDateOfBirth);
+            
+            TimeSpan timeSpan = DateTime.Now - dateOfBirth;
+
+
+            Console.WriteLine($"You were born: {timeSpan.TotalDays} days ago");
+
+            Console.ReadKey();
         }
     }
 }

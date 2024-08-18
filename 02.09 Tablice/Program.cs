@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string[] cars = {"Volvo", "BMW", "Mazda"};
-            string[] cars2 = [ "Volvo", "BMW", "Mazda" ];
+            string[] cars2 = [ "Volvo", "BMW", "Mazda" ]; // after C# 12
             Console.WriteLine(cars[0]);
             int arrayLength = cars.Length; //3
 
