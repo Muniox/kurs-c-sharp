@@ -27,15 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.11 Pętla do-while", "02
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.12 Pętla for", "02.12 Pętla for\02.12 Pętla for.csproj", "{0829803F-520A-4B1A-9359-87A1BC735E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.13 Pętla foreach", "02.13 Pętla foreach\02.13 Pętla foreach.csproj", "{6093DB94-B3E2-4F19-9BB1-CBB8152B9692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.13 Pętla foreach", "02.13 Pętla foreach\02.13 Pętla foreach.csproj", "{6093DB94-B3E2-4F19-9BB1-CBB8152B9692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie2", "Zadanie2\Zadanie2.csproj", "{1646A776-4F04-4DB7-92F7-BC7C34A1EFCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie2", "Zadanie2\Zadanie2.csproj", "{1646A776-4F04-4DB7-92F7-BC7C34A1EFCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.14 Enum", "02.14 Enum\02.14 Enum.csproj", "{A8C30574-C741-4859-83C8-7B655B0A3DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.14 Enum", "02.14 Enum\02.14 Enum.csproj", "{A8C30574-C741-4859-83C8-7B655B0A3DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.15 Nullable", "02.15 Nullable\02.15 Nullable.csproj", "{55FF6968-75E2-4330-965F-98F1263B831C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.15 Nullable", "02.15 Nullable\02.15 Nullable.csproj", "{55FF6968-75E2-4330-965F-98F1263B831C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.16 Try catch finally", "02.16 Try catch finally\02.16 Try catch finally.csproj", "{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.16 Try catch finally", "02.16 Try catch finally\02.16 Try catch finally.csproj", "{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.17 Namespace", "02.17 Namespace\02.17 Namespace.csproj", "{DF45C47B-AC91-49E2-8B08-8785E911109C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Wprowadzenie do klas", "03.01 Wprowadzenie do klas\03.01 Wprowadzenie do klas.csproj", "{B111D953-B4B3-4F24-BC46-187EAFC143B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02 Metody", "03.02 Metody\03.02 Metody.csproj", "{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF45C47B-AC91-49E2-8B08-8785E911109C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF45C47B-AC91-49E2-8B08-8785E911109C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF45C47B-AC91-49E2-8B08-8785E911109C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF45C47B-AC91-49E2-8B08-8785E911109C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B111D953-B4B3-4F24-BC46-187EAFC143B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B111D953-B4B3-4F24-BC46-187EAFC143B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B111D953-B4B3-4F24-BC46-187EAFC143B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B111D953-B4B3-4F24-BC46-187EAFC143B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
