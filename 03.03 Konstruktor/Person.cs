@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03._02_Metody
+namespace _03._03_Konstruktor
 {
     internal class Person
     {
@@ -12,6 +12,18 @@ namespace _03._02_Metody
         public string LastName;
 
         private DateTime dateOfBirth;
+
+        public Person(string firstName, string lastName)
+        {
+            Console.WriteLine("Constructor1");
+            FirstName = firstName;
+            LastName = lastName;
+        }
+        public Person(DateTime dateOfBirth, string firstName, string lastName) : this (firstName, lastName)
+        {
+            Console.WriteLine("constructor2");
+            SetDateOfBirth(dateOfBirth);
+        }
 
         public void SetDateOfBirth(DateTime date)
         {
@@ -25,12 +37,6 @@ namespace _03._02_Metody
             }
         }
 
-        //public DateTime GetDateOfBirth()
-        //{
-        //    return dateOfBirth;
-        //}
-
-        //expresion body
         public DateTime GetDateOfBirth() => dateOfBirth;
 
         public void SayHi() => Console.WriteLine($"Hi I'm {FirstName} {GetDateOfBirth()}");

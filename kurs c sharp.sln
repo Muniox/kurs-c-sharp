@@ -37,11 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.15 Nullable", "02.15 Nul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.16 Try catch finally", "02.16 Try catch finally\02.16 Try catch finally.csproj", "{FB40A2F6-7DD1-47DF-960C-D3AE7FB13FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.17 Namespace", "02.17 Namespace\02.17 Namespace.csproj", "{DF45C47B-AC91-49E2-8B08-8785E911109C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.17 Namespace", "02.17 Namespace\02.17 Namespace.csproj", "{DF45C47B-AC91-49E2-8B08-8785E911109C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01 Wprowadzenie do klas", "03.01 Wprowadzenie do klas\03.01 Wprowadzenie do klas.csproj", "{B111D953-B4B3-4F24-BC46-187EAFC143B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.01 Wprowadzenie do klas", "03.01 Wprowadzenie do klas\03.01 Wprowadzenie do klas.csproj", "{B111D953-B4B3-4F24-BC46-187EAFC143B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02 Metody", "03.02 Metody\03.02 Metody.csproj", "{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.02 Metody", "03.02 Metody\03.02 Metody.csproj", "{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.03 Konstruktor", "03.03 Konstruktor\03.03 Konstruktor.csproj", "{37CCE37E-64D9-4365-AC40-99DA313D3403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.04 Właściwości klasy", "03.04 Właściwości klasy\03.04 Właściwości klasy.csproj", "{94A63F0D-D68B-43B7-9A10-0AEEA3BBE306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136DA517-49D1-4709-8AAE-C3FDEF45E5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CCE37E-64D9-4365-AC40-99DA313D3403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CCE37E-64D9-4365-AC40-99DA313D3403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CCE37E-64D9-4365-AC40-99DA313D3403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CCE37E-64D9-4365-AC40-99DA313D3403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A63F0D-D68B-43B7-9A10-0AEEA3BBE306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A63F0D-D68B-43B7-9A10-0AEEA3BBE306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A63F0D-D68B-43B7-9A10-0AEEA3BBE306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A63F0D-D68B-43B7-9A10-0AEEA3BBE306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
