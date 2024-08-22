@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03._04_Właściwości_klasy
+namespace _03._05_Elementy_statyczne
 {
     internal class Person
     {
@@ -14,12 +14,14 @@ namespace _03._04_Właściwości_klasy
         private DateTime dateOfBirth;
         private string contactNumber;
 
+        public static int Count = 0;
+
         public string ContactNumber
         {
             get { return contactNumber; }
-            set 
-            { 
-                if (value.Length <9)
+            set
+            {
+                if (value.Length < 9)
                 {
                     Console.WriteLine("Invalid contact number");
                 }
@@ -37,6 +39,7 @@ namespace _03._04_Właściwości_klasy
             Console.WriteLine("Constructor1");
             FirstName = firstName;
             LastName = lastName;
+            Count++;
         }
         public Person(DateTime dateOfBirth, string firstName, string lastName) : this(firstName, lastName)
         {

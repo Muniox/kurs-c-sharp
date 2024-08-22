@@ -1,0 +1,10 @@
+﻿namespace _03._06_Dziedziczenie
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
