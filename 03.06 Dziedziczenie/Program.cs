@@ -4,19 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Person bill = new Person("Bill", "Wick");
+            ExcelFile excelFile = new ExcelFile();
 
-            bill.SetDateOfBirth(new DateTime(1990, 1, 1));
+            excelFile.CreatedOn = DateTime.Now;
+            excelFile.FileName = "excel-file";
 
-            bill.SayHi();
-            bill.ContactNumber = "9998887776";
-            Console.WriteLine(bill.ContactNumber);
+            excelFile.GeneratedReport();
 
-            Person john = new Person(new DateTime(1990, 1, 2), "John", "Wick");
+            WordDocumentFile wordDocumentFile = new WordDocumentFile();
 
-            john.SayHi();
+            wordDocumentFile.CreatedOn = DateTime.Now;
+            wordDocumentFile.FileName = "word-file";
 
-            Console.WriteLine($"Pbjects of Person type count: {Person.Count}");
+            wordDocumentFile.Print();
+
         }
     }
 }

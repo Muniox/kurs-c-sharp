@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace _03._06_Dziedziczenie
 {
-    internal class ExcelFile : File
+    internal class File
     {
-
-        public void GeneratedReport()
-        {
-            Console.WriteLine($"{FileName} report..");
-        }
+        public string FileName { get; set; }
+        public int Size { get; set; }
+        public DateTime CreatedOn { get; set; }
     }
 }

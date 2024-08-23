@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace _03._06_Dziedziczenie
 {
-    internal class ExcelFile : File
+    internal class WordDocumentFile : File 
     {
-
-        public void GeneratedReport()
+        public void Print()
         {
-            Console.WriteLine($"{FileName} report..");
+            Console.WriteLine($"{FileName} Printing..");
         }
     }
 }
