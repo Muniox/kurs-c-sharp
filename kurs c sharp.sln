@@ -49,7 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.04 Właściwości klasy"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.05 Elementy statyczne", "03.05 Elementy statyczne\03.05 Elementy statyczne.csproj", "{8F5B07A8-FCEF-4F17-89F3-EDAA77FBDFB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.06 Dziedziczenie", "03.06 Dziedziczenie\03.06 Dziedziczenie.csproj", "{4FC4EBF2-64D5-4A95-BEBE-2E3CD8C406D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.06 Dziedziczenie", "03.06 Dziedziczenie\03.06 Dziedziczenie.csproj", "{4FC4EBF2-64D5-4A95-BEBE-2E3CD8C406D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.07 Modyfikatory dostępu", "03.07 Modyfikatory dostępu\03.07 Modyfikatory dostępu.csproj", "{FA5C151E-CBA6-407F-BCA3-2CC8658F823D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.08 Klasa abstrakcyjna", "03.08 Klasa abstrakcyjna\03.08 Klasa abstrakcyjna.csproj", "{B0109EF3-E48D-457B-8EE3-5E71C7ACE5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.09 Interfejs", "03.09 Interfejs\03.09 Interfejs.csproj", "{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +159,18 @@ Global
 		{4FC4EBF2-64D5-4A95-BEBE-2E3CD8C406D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FC4EBF2-64D5-4A95-BEBE-2E3CD8C406D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FC4EBF2-64D5-4A95-BEBE-2E3CD8C406D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5C151E-CBA6-407F-BCA3-2CC8658F823D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5C151E-CBA6-407F-BCA3-2CC8658F823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5C151E-CBA6-407F-BCA3-2CC8658F823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5C151E-CBA6-407F-BCA3-2CC8658F823D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0109EF3-E48D-457B-8EE3-5E71C7ACE5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0109EF3-E48D-457B-8EE3-5E71C7ACE5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0109EF3-E48D-457B-8EE3-5E71C7ACE5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0109EF3-E48D-457B-8EE3-5E71C7ACE5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
