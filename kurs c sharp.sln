@@ -65,6 +65,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.02 Lista i jej funkcjona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.03 LINQ", "04.03 LINQ\04.03 LINQ.csproj", "{9511836E-6599-4DE3-BB4E-1560682C8EC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.04 Wyrażenie lambda", "04.04 Wyrażenie lambda\04.04 Wyrażenie lambda.csproj", "{2454C72B-7CBA-4397-9991-7C6B625958CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.05 Słownik(Dictionary)", "04.05 Słownik(Dictionary)\04.05 Słownik(Dictionary).csproj", "{563F6B1F-BE8C-46E9-BCBA-41475E925850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,14 @@ Global
 		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2454C72B-7CBA-4397-9991-7C6B625958CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2454C72B-7CBA-4397-9991-7C6B625958CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2454C72B-7CBA-4397-9991-7C6B625958CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2454C72B-7CBA-4397-9991-7C6B625958CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563F6B1F-BE8C-46E9-BCBA-41475E925850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563F6B1F-BE8C-46E9-BCBA-41475E925850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563F6B1F-BE8C-46E9-BCBA-41475E925850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563F6B1F-BE8C-46E9-BCBA-41475E925850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
