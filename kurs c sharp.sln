@@ -57,7 +57,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.08 Klasa abstrakcyjna", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.09 Interfejs", "03.09 Interfejs\03.09 Interfejs.csproj", "{78C1DB5B-3D23-48E2-8150-7A513EFA8B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.10 Polimorfizm", "03.10 Polimorfizm\03.10 Polimorfizm.csproj", "{B3F905D4-5392-4C84-82FA-F2EBABB643A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.10 Polimorfizm", "03.10 Polimorfizm\03.10 Polimorfizm.csproj", "{B3F905D4-5392-4C84-82FA-F2EBABB643A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.01 Wprowadzenie do kolekcji", "04.01 Wprowadzenie do kolekcji\04.01 Wprowadzenie do kolekcji.csproj", "{5572D606-68D8-42C2-84F6-F7BEFF9B459E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.02 Lista i jej funkcjonalności", "04.02 Lista i jej funkcjonalności\04.02 Lista i jej funkcjonalności.csproj", "{0560CDFD-5DFB-4AE0-8228-52A32EB2C9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.03 LINQ", "04.03 LINQ\04.03 LINQ.csproj", "{9511836E-6599-4DE3-BB4E-1560682C8EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +183,18 @@ Global
 		{B3F905D4-5392-4C84-82FA-F2EBABB643A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3F905D4-5392-4C84-82FA-F2EBABB643A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3F905D4-5392-4C84-82FA-F2EBABB643A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5572D606-68D8-42C2-84F6-F7BEFF9B459E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5572D606-68D8-42C2-84F6-F7BEFF9B459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5572D606-68D8-42C2-84F6-F7BEFF9B459E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5572D606-68D8-42C2-84F6-F7BEFF9B459E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0560CDFD-5DFB-4AE0-8228-52A32EB2C9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0560CDFD-5DFB-4AE0-8228-52A32EB2C9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0560CDFD-5DFB-4AE0-8228-52A32EB2C9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0560CDFD-5DFB-4AE0-8228-52A32EB2C9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9511836E-6599-4DE3-BB4E-1560682C8EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
