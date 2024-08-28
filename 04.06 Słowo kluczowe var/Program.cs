@@ -1,4 +1,4 @@
-﻿namespace _04._05_Słownik_Dictionary_
+﻿namespace _04._06_Słowo_kluczowe_var
 {
     internal class Program
     {
@@ -16,12 +16,16 @@
         }
         static void Main(string[] args)
         {
-            Dictionary<string, Currency> currencies = GetCurrencies();
+            var currencies = GetCurrencies();
             Console.WriteLine("Check the rate for:");
-            string? userInput = Console.ReadLine();
+            var userInput = Console.ReadLine();
+
+            var index = 1;
+            var someText = "tests";
+
 
             Currency? selectedCurrency = null;
-            if(currencies.TryGetValue(userInput, out selectedCurrency))
+            if (currencies.TryGetValue(userInput, out selectedCurrency))
             {
                 Console.WriteLine($"Rate for USD to {selectedCurrency.Name} is {selectedCurrency.Rate}");
             }
