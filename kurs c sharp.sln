@@ -77,9 +77,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.02 Słowa kluczowe ref &
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie3", "Zadanie3\Zadanie3.csproj", "{285AAB3A-1901-4976-A2D2-0475BD0A87FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie4", "Zadanie4\Zadanie4.csproj", "{74BA5CB3-664E-4841-9A90-A6B06818ACDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zadanie4", "Zadanie4\Zadanie4.csproj", "{74BA5CB3-664E-4841-9A90-A6B06818ACDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.03 Porównywanie wartości referencyjnych", "05.03 Porównywanie wartości referencyjnych\05.03 Porównywanie wartości referencyjnych.csproj", "{95667396-B22B-4A3C-BB42-BED84B8C1B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.03 Porównywanie wartości referencyjnych", "05.03 Porównywanie wartości referencyjnych\05.03 Porównywanie wartości referencyjnych.csproj", "{95667396-B22B-4A3C-BB42-BED84B8C1B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.04 Słowa kluczowe const & readonly", "05.04 Słowa kluczowe const & readonly\05.04 Słowa kluczowe const & readonly.csproj", "{401A4452-4B66-4629-AAB2-96FBA9F4B553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.01 Obsługa plików tekstowych", "06.01 Obsługa plików tekstowych\06.01 Obsługa plików tekstowych.csproj", "{94B638D1-2436-4121-AB1B-C8A5B1AB1D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +247,14 @@ Global
 		{95667396-B22B-4A3C-BB42-BED84B8C1B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95667396-B22B-4A3C-BB42-BED84B8C1B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95667396-B22B-4A3C-BB42-BED84B8C1B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401A4452-4B66-4629-AAB2-96FBA9F4B553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401A4452-4B66-4629-AAB2-96FBA9F4B553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401A4452-4B66-4629-AAB2-96FBA9F4B553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401A4452-4B66-4629-AAB2-96FBA9F4B553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B638D1-2436-4121-AB1B-C8A5B1AB1D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B638D1-2436-4121-AB1B-C8A5B1AB1D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B638D1-2436-4121-AB1B-C8A5B1AB1D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B638D1-2436-4121-AB1B-C8A5B1AB1D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
