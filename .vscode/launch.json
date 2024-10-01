@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "C#: 02.06 if-else statement",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}\\02.06 if-else statement\\02.06 if-else statement.csproj",
+      "launchConfigurationId": "TargetFramework=;02.06 if-else statement"
+    }
+  ]
+}

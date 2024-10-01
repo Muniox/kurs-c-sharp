@@ -30,6 +30,16 @@
             File.WriteAllText(@$"C:\Users\Muniox\Desktop\dotnet\TextFiles\Write\document-{name}.txt", document);
         }
 
+        static void ScanAndAppend()
+        {
+            var files = Directory.GetFiles(@"C:\Users\pawel.bartoszewski\Desktop\kurs-c-sharp\TextFiles\Append", "*.txt", SearchOption.AllDirectories);
+
+            foreach (string file in files)
+            {
+                File.AppendAllText(file, "All rights reserved");
+            }
+        }
+
         static void Main(string[] args)
         {
             //File.ReadAllLines(); // zwraca tablicę stringów które są podzielone znakami nowej linii
@@ -38,8 +48,9 @@
             //File.WriteAllText(); // przyjmuje string
             //File.WriteAllLines(); // przujuje tablice stringów które będą podzielone znakami nowej linii
 
-            //ReadFiles();
-            GenerateDocuments();
+            // ReadFiles();
+            // GenerateDocuments();
+            ScanAndAppend();
         }
     }
 }
