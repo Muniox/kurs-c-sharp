@@ -1,27 +1,28 @@
-﻿namespace _06._03_Wyrażenie_using;
-
-class Program
+﻿namespace _06._03_Wyrażenie_using
 {
-    static void Main(string[] args)
+    class Program
     {
-        var filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\..\..\..\..\TextFiles\File\file.txt";
-        var fileContent = File.ReadAllLines(filePath);
-
-        using (var readFileStream = new FileStream(filePath, FileMode.Open))
+        static void Main(string[] args)
         {
-            // readFileStream.Read();
-            // ...
-            // throw new Exception();
-        } // blok using mozemy wykonac dla kazdej klasy ktora dziedziczy po IDisposable
+            var filePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\..\..\..\..\TextFiles\File\file.txt";
+            var fileContent = File.ReadAllLines(filePath);
+
+            using (var readFileStream = new FileStream(filePath, FileMode.Open))
+            {
+                // readFileStream.Read();
+                // ...
+                // throw new Exception();
+            } // blok using mozemy wykonac dla kazdej klasy ktora dziedziczy po IDisposable
 
 
 
-        // należy zamknąć stream przed jego ponownym wykorzystaniem
-        // readFileStream.Close();
+            // należy zamknąć stream przed jego ponownym wykorzystaniem
+            // readFileStream.Close();
 
-        var writeFileStream = new FileStream(filePath, FileMode.Open);
+            var writeFileStream = new FileStream(filePath, FileMode.Open);
 
-        // writeFileStream.Write();
-        // readFileStream.Close();
+            // writeFileStream.Write();
+            // readFileStream.Close();
+        }
     }
 }

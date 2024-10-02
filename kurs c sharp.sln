@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.03 Wyrażenie using", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.01 Metody pomocnicze dla typu string", "07.01 Metody pomocnicze dla typu string\07.01 Metody pomocnicze dla typu string.csproj", "{C57A0968-680D-460B-9487-80761AB339D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.02 Transformacja wartości typu string", "07.02 Transformacja wartości typu string\07.02 Transformacja wartości typu string.csproj", "{CFCDA54E-AADE-419D-ACAC-1B076E4B7E1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{C57A0968-680D-460B-9487-80761AB339D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57A0968-680D-460B-9487-80761AB339D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57A0968-680D-460B-9487-80761AB339D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCDA54E-AADE-419D-ACAC-1B076E4B7E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCDA54E-AADE-419D-ACAC-1B076E4B7E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCDA54E-AADE-419D-ACAC-1B076E4B7E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCDA54E-AADE-419D-ACAC-1B076E4B7E1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
